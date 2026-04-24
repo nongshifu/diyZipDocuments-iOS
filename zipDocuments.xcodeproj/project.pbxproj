@@ -17,6 +17,28 @@
 		60A817112F9B4BF300763131 /* zipDocumentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817102F9B4BF300763131 /* zipDocumentsTests.m */; };
 		60A8171B2F9B4BF300763131 /* zipDocumentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A8171A2F9B4BF300763131 /* zipDocumentsUITests.m */; };
 		60A8171D2F9B4BF300763131 /* zipDocumentsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A8171C2F9B4BF300763131 /* zipDocumentsUITestsLaunchTests.m */; };
+		60A817382F9B4D5400763131 /* SandboxTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817372F9B4D5400763131 /* SandboxTool.m */; };
+		60A8173B2F9B4D8000763131 /* ZipTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A8173A2F9B4D8000763131 /* ZipTool.m */; };
+		60A8173E2F9B4DA300763131 /* SandboxCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A8173D2F9B4DA300763131 /* SandboxCleaner.m */; };
+		60A817422F9B4DDE00763131 /* SandboxRuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817412F9B4DDE00763131 /* SandboxRuleModel.m */; };
+		60A817452F9B4DE800763131 /* RuleEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817442F9B4DE800763131 /* RuleEngine.m */; };
+		60A817482F9B4DF200763131 /* RuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817472F9B4DF200763131 /* RuleManager.m */; };
+		60A8174C2F9B4E0800763131 /* BackupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A8174B2F9B4E0800763131 /* BackupModel.m */; };
+		60A8174F2F9B4E1300763131 /* BackupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A8174E2F9B4E1300763131 /* BackupManager.m */; };
+		60A817532F9B4E3800763131 /* SandboxMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817522F9B4E3800763131 /* SandboxMenuView.m */; };
+		60A817592F9B4E5900763131 /* BackupListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817582F9B4E5900763131 /* BackupListVC.m */; };
+		60A8175C2F9B4E6A00763131 /* RuleListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A8175B2F9B4E6A00763131 /* RuleListVC.m */; };
+		60A8176F2F9B501900763131 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817652F9B501900763131 /* SVRadialGradientLayer.m */; };
+		60A817702F9B501900763131 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817692F9B501900763131 /* SVProgressAnimatedView.m */; };
+		60A817712F9B501900763131 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A8176C2F9B501900763131 /* SVProgressHUD.m */; };
+		60A817722F9B501900763131 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A8176D2F9B501900763131 /* SVIndefiniteAnimatedView.m */; };
+		60A817752F9B542500763131 /* AddRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817742F9B542500763131 /* AddRuleViewController.m */; };
+		60A817842F9B58B900763131 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 60A817782F9B58B900763131 /* unzip.c */; };
+		60A817852F9B58B900763131 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 60A817792F9B58B900763131 /* zip.c */; };
+		60A817862F9B58B900763131 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 60A8177A2F9B58B900763131 /* ioapi.c */; };
+		60A817872F9B58B900763131 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 60A8177B2F9B58B900763131 /* mztools.c */; };
+		60A817882F9B58B900763131 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A817832F9B58B900763131 /* SSZipArchive.m */; };
+		60A81AA82F9BB64600763131 /* TopGestureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A81AA62F9BB64500763131 /* TopGestureManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +76,54 @@
 		60A817162F9B4BF300763131 /* zipDocumentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zipDocumentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A8171A2F9B4BF300763131 /* zipDocumentsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zipDocumentsUITests.m; sourceTree = "<group>"; };
 		60A8171C2F9B4BF300763131 /* zipDocumentsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zipDocumentsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		60A817342F9B4D2B00763131 /* SandboxKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxKit.h; sourceTree = "<group>"; };
+		60A817362F9B4D5400763131 /* SandboxTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxTool.h; sourceTree = "<group>"; };
+		60A817372F9B4D5400763131 /* SandboxTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxTool.m; sourceTree = "<group>"; };
+		60A817392F9B4D8000763131 /* ZipTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipTool.h; sourceTree = "<group>"; };
+		60A8173A2F9B4D8000763131 /* ZipTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZipTool.m; sourceTree = "<group>"; };
+		60A8173C2F9B4DA300763131 /* SandboxCleaner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxCleaner.h; sourceTree = "<group>"; };
+		60A8173D2F9B4DA300763131 /* SandboxCleaner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxCleaner.m; sourceTree = "<group>"; };
+		60A817402F9B4DDE00763131 /* SandboxRuleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxRuleModel.h; sourceTree = "<group>"; };
+		60A817412F9B4DDE00763131 /* SandboxRuleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxRuleModel.m; sourceTree = "<group>"; };
+		60A817432F9B4DE800763131 /* RuleEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuleEngine.h; sourceTree = "<group>"; };
+		60A817442F9B4DE800763131 /* RuleEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuleEngine.m; sourceTree = "<group>"; };
+		60A817462F9B4DF200763131 /* RuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuleManager.h; sourceTree = "<group>"; };
+		60A817472F9B4DF200763131 /* RuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuleManager.m; sourceTree = "<group>"; };
+		60A8174A2F9B4E0800763131 /* BackupModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackupModel.h; sourceTree = "<group>"; };
+		60A8174B2F9B4E0800763131 /* BackupModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackupModel.m; sourceTree = "<group>"; };
+		60A8174D2F9B4E1300763131 /* BackupManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackupManager.h; sourceTree = "<group>"; };
+		60A8174E2F9B4E1300763131 /* BackupManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackupManager.m; sourceTree = "<group>"; };
+		60A817512F9B4E3800763131 /* SandboxMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxMenuView.h; sourceTree = "<group>"; };
+		60A817522F9B4E3800763131 /* SandboxMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxMenuView.m; sourceTree = "<group>"; };
+		60A817572F9B4E5900763131 /* BackupListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackupListVC.h; sourceTree = "<group>"; };
+		60A817582F9B4E5900763131 /* BackupListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackupListVC.m; sourceTree = "<group>"; };
+		60A8175A2F9B4E6A00763131 /* RuleListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuleListVC.h; sourceTree = "<group>"; };
+		60A8175B2F9B4E6A00763131 /* RuleListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuleListVC.m; sourceTree = "<group>"; };
+		60A817652F9B501900763131 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		60A817662F9B501900763131 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		60A817672F9B501900763131 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		60A817692F9B501900763131 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		60A8176A2F9B501900763131 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		60A8176B2F9B501900763131 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		60A8176C2F9B501900763131 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		60A8176D2F9B501900763131 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		60A8176E2F9B501900763131 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		60A817732F9B542500763131 /* AddRuleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddRuleViewController.h; sourceTree = "<group>"; };
+		60A817742F9B542500763131 /* AddRuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddRuleViewController.m; sourceTree = "<group>"; };
+		60A817782F9B58B900763131 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		60A817792F9B58B900763131 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		60A8177A2F9B58B900763131 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		60A8177B2F9B58B900763131 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		60A8177C2F9B58B900763131 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		60A8177D2F9B58B900763131 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		60A8177E2F9B58B900763131 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		60A8177F2F9B58B900763131 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		60A817802F9B58B900763131 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		60A817812F9B58B900763131 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		60A817822F9B58B900763131 /* UNZip-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UNZip-Prefix.pch"; sourceTree = "<group>"; };
+		60A817832F9B58B900763131 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		60A81AA62F9BB64500763131 /* TopGestureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopGestureManager.m; sourceTree = "<group>"; };
+		60A81AA72F9BB64600763131 /* TopGestureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopGestureManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +174,13 @@
 		60A816F32F9B4BF100763131 /* zipDocuments */ = {
 			isa = PBXGroup;
 			children = (
+				60A817762F9B58B900763131 /* UNZip */,
+				60A817642F9B501800763131 /* SVProgressHUD */,
+				60A8175D2F9B4E7900763131 /* Inject */,
+				60A817502F9B4E1B00763131 /* UI */,
+				60A817492F9B4DFB00763131 /* Backup */,
+				60A8173F2F9B4DCF00763131 /* Rule */,
+				60A817352F9B4D4500763131 /* Core */,
 				60A816F42F9B4BF100763131 /* AppDelegate.h */,
 				60A816F52F9B4BF100763131 /* AppDelegate.m */,
 				60A816F72F9B4BF100763131 /* SceneDelegate.h */,
@@ -115,6 +192,7 @@
 				60A817022F9B4BF300763131 /* LaunchScreen.storyboard */,
 				60A817052F9B4BF300763131 /* Info.plist */,
 				60A817062F9B4BF300763131 /* main.m */,
+				60A817342F9B4D2B00763131 /* SandboxKit.h */,
 			);
 			path = zipDocuments;
 			sourceTree = "<group>";
@@ -134,6 +212,118 @@
 				60A8171C2F9B4BF300763131 /* zipDocumentsUITestsLaunchTests.m */,
 			);
 			path = zipDocumentsUITests;
+			sourceTree = "<group>";
+		};
+		60A817352F9B4D4500763131 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				60A817362F9B4D5400763131 /* SandboxTool.h */,
+				60A817372F9B4D5400763131 /* SandboxTool.m */,
+				60A817392F9B4D8000763131 /* ZipTool.h */,
+				60A8173A2F9B4D8000763131 /* ZipTool.m */,
+				60A8173C2F9B4DA300763131 /* SandboxCleaner.h */,
+				60A8173D2F9B4DA300763131 /* SandboxCleaner.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		60A8173F2F9B4DCF00763131 /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				60A817402F9B4DDE00763131 /* SandboxRuleModel.h */,
+				60A817412F9B4DDE00763131 /* SandboxRuleModel.m */,
+				60A817432F9B4DE800763131 /* RuleEngine.h */,
+				60A817442F9B4DE800763131 /* RuleEngine.m */,
+				60A817462F9B4DF200763131 /* RuleManager.h */,
+				60A817472F9B4DF200763131 /* RuleManager.m */,
+			);
+			path = Rule;
+			sourceTree = "<group>";
+		};
+		60A817492F9B4DFB00763131 /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				60A8174A2F9B4E0800763131 /* BackupModel.h */,
+				60A8174B2F9B4E0800763131 /* BackupModel.m */,
+				60A8174D2F9B4E1300763131 /* BackupManager.h */,
+				60A8174E2F9B4E1300763131 /* BackupManager.m */,
+			);
+			path = Backup;
+			sourceTree = "<group>";
+		};
+		60A817502F9B4E1B00763131 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				60A817512F9B4E3800763131 /* SandboxMenuView.h */,
+				60A817522F9B4E3800763131 /* SandboxMenuView.m */,
+				60A817572F9B4E5900763131 /* BackupListVC.h */,
+				60A817582F9B4E5900763131 /* BackupListVC.m */,
+				60A8175A2F9B4E6A00763131 /* RuleListVC.h */,
+				60A8175B2F9B4E6A00763131 /* RuleListVC.m */,
+				60A817732F9B542500763131 /* AddRuleViewController.h */,
+				60A817742F9B542500763131 /* AddRuleViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		60A8175D2F9B4E7900763131 /* Inject */ = {
+			isa = PBXGroup;
+			children = (
+				60A81AA72F9BB64600763131 /* TopGestureManager.h */,
+				60A81AA62F9BB64500763131 /* TopGestureManager.m */,
+			);
+			path = Inject;
+			sourceTree = "<group>";
+		};
+		60A817642F9B501800763131 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				60A817652F9B501900763131 /* SVRadialGradientLayer.m */,
+				60A817662F9B501900763131 /* SVIndefiniteAnimatedView.h */,
+				60A817672F9B501900763131 /* SVProgressHUD.h */,
+				60A817682F9B501900763131 /* include */,
+				60A817692F9B501900763131 /* SVProgressAnimatedView.m */,
+				60A8176A2F9B501900763131 /* SVProgressHUD-Prefix.pch */,
+				60A8176B2F9B501900763131 /* SVRadialGradientLayer.h */,
+				60A8176C2F9B501900763131 /* SVProgressHUD.m */,
+				60A8176D2F9B501900763131 /* SVIndefiniteAnimatedView.m */,
+				60A8176E2F9B501900763131 /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		60A817682F9B501900763131 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		60A817762F9B58B900763131 /* UNZip */ = {
+			isa = PBXGroup;
+			children = (
+				60A817772F9B58B900763131 /* minizip */,
+				60A817812F9B58B900763131 /* SSZipArchive.h */,
+				60A817822F9B58B900763131 /* UNZip-Prefix.pch */,
+				60A817832F9B58B900763131 /* SSZipArchive.m */,
+			);
+			path = UNZip;
+			sourceTree = "<group>";
+		};
+		60A817772F9B58B900763131 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				60A817782F9B58B900763131 /* unzip.c */,
+				60A817792F9B58B900763131 /* zip.c */,
+				60A8177A2F9B58B900763131 /* ioapi.c */,
+				60A8177B2F9B58B900763131 /* mztools.c */,
+				60A8177C2F9B58B900763131 /* crypt.h */,
+				60A8177D2F9B58B900763131 /* zip.h */,
+				60A8177E2F9B58B900763131 /* unzip.h */,
+				60A8177F2F9B58B900763131 /* mztools.h */,
+				60A817802F9B58B900763131 /* ioapi.h */,
+			);
+			path = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +457,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				60A816FC2F9B4BF100763131 /* ViewController.m in Sources */,
+				60A8176F2F9B501900763131 /* SVRadialGradientLayer.m in Sources */,
+				60A817382F9B4D5400763131 /* SandboxTool.m in Sources */,
 				60A816F62F9B4BF100763131 /* AppDelegate.m in Sources */,
+				60A817722F9B501900763131 /* SVIndefiniteAnimatedView.m in Sources */,
+				60A8175C2F9B4E6A00763131 /* RuleListVC.m in Sources */,
+				60A8174C2F9B4E0800763131 /* BackupModel.m in Sources */,
 				60A817072F9B4BF300763131 /* main.m in Sources */,
+				60A817852F9B58B900763131 /* zip.c in Sources */,
 				60A816F92F9B4BF100763131 /* SceneDelegate.m in Sources */,
+				60A817882F9B58B900763131 /* SSZipArchive.m in Sources */,
+				60A817422F9B4DDE00763131 /* SandboxRuleModel.m in Sources */,
+				60A817872F9B58B900763131 /* mztools.c in Sources */,
+				60A817702F9B501900763131 /* SVProgressAnimatedView.m in Sources */,
+				60A8174F2F9B4E1300763131 /* BackupManager.m in Sources */,
+				60A8173E2F9B4DA300763131 /* SandboxCleaner.m in Sources */,
+				60A817532F9B4E3800763131 /* SandboxMenuView.m in Sources */,
+				60A81AA82F9BB64600763131 /* TopGestureManager.m in Sources */,
+				60A817752F9B542500763131 /* AddRuleViewController.m in Sources */,
+				60A817592F9B4E5900763131 /* BackupListVC.m in Sources */,
+				60A817452F9B4DE800763131 /* RuleEngine.m in Sources */,
+				60A817712F9B501900763131 /* SVProgressHUD.m in Sources */,
+				60A8173B2F9B4D8000763131 /* ZipTool.m in Sources */,
+				60A817842F9B58B900763131 /* unzip.c in Sources */,
+				60A817482F9B4DF200763131 /* RuleManager.m in Sources */,
+				60A817862F9B58B900763131 /* ioapi.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +668,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,6 +696,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
